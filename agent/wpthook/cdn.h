@@ -178,6 +178,7 @@ CDN_PROVIDER cdnList[] = {
   {".netlify.com", "Netlify"},
   {".b-cdn.net", "BunnyCDN"},
   {".pix-cdn.org", "Advanced Hosters CDN"},
+  {".designa.ws", "Design A CDN"},
   {"END_MARKER", "END_MARKER"}
 };
 
@@ -227,6 +228,7 @@ CDN_PROVIDER_HEADER cdnHeaderList[] = {
   {"server", "Testa/", "Naver"},
   {"server", "BunnyCDN", "BunnyCDN"},
   {"server", "MNCDN", "Medianova"}
+  {"server", "Design A CDN", "Design A CDN"},
 };
 
 // Specific providers that require multiple headers
